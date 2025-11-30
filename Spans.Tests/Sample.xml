@@ -1,0 +1,38 @@
+﻿<Catalog>
+    <Product Id="1" Name="Sample Product A">
+        <Prices>
+            <Price Currency="USD">
+                19.99
+            </Price>
+            <Price Currency="EUR">
+                17.99
+            </Price>
+        </Prices>
+        <Descriptions>
+            <Description Language="en">
+                This is a sample product A.
+            </Description>
+            <Description Language="fr">
+                Ceci est un produit d'exemple A.
+            </Description>
+        </Descriptions>
+    </Product>
+    <Product Id="2" Name="Sample Product B">
+        <Prices>
+            <Price Currency="USD">
+                29.99
+            </Price>
+            <Price Currency="EUR">
+                24.99
+            </Price>
+        </Prices>
+        <Descriptions>
+            <Description Language="en">
+                This is a sample product B.
+            </Description>
+            <Description Language="fr">
+                Ceci est un produit d'exemple B.
+            </Description>
+        </Descriptions>
+    </Product>
+</Catalog>
