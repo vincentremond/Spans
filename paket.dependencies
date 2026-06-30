@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+nuget AwesomeAssertions
+nuget BenchmarkDotNet
+nuget Microsoft.Extensions.Logging.Console
+nuget Microsoft.NET.Test.Sdk
+nuget NUnit
+nuget NUnit3TestAdapter
