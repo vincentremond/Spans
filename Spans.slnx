@@ -1,0 +1,10 @@
+﻿<Solution>
+  <Folder Name="/Solution items/">
+    <File Path=".gitignore" />
+    <File Path="Directory.Packages.props" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Spans.Benchmark/Spans.Benchmark.csproj" />
+  <Project Path="Spans.Tests/Spans.Tests.csproj" />
+  <Project Path="Spans/Spans.csproj" />
+</Solution>

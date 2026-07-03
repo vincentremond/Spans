@@ -3,24 +3,24 @@ NUGET
   remote: https://api.nuget.org/v3/index.json
     AwesomeAssertions (9.4)
       System.Threading.Tasks.Extensions (>= 4.5.4) - restriction: || (>= net47) (&& (>= netstandard2.0) (< netstandard2.1))
-    Azure.Core (1.59) - restriction: >= netstandard2.0
-      Microsoft.Bcl.AsyncInterfaces (>= 10.0.3) - restriction: || (>= net462) (>= netstandard2.0)
-      Microsoft.Extensions.Configuration.Abstractions (>= 10.0.3) - restriction: || (>= net462) (>= netstandard2.0)
-      Microsoft.Extensions.Hosting.Abstractions (>= 10.0.3) - restriction: || (>= net462) (>= netstandard2.0)
+    Azure.Core (1.60) - restriction: >= netstandard2.0
+      Microsoft.Bcl.AsyncInterfaces (>= 10.0.9) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Configuration.Abstractions (>= 10.0.9) - restriction: || (>= net462) (>= netstandard2.0)
+      Microsoft.Extensions.Hosting.Abstractions (>= 10.0.9) - restriction: || (>= net462) (>= netstandard2.0)
       Microsoft.Identity.Client (>= 4.84.2) - restriction: || (>= net462) (>= netstandard2.0)
       Microsoft.Identity.Client.Extensions.Msal (>= 4.84.2) - restriction: || (>= net462) (>= netstandard2.0)
       System.ClientModel (>= 1.14) - restriction: || (>= net462) (>= netstandard2.0)
-      System.Diagnostics.DiagnosticSource (>= 10.0.3) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Diagnostics.DiagnosticSource (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.Memory (>= 4.6.3) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
-      System.Memory.Data (>= 10.0.3) - restriction: || (>= net462) (>= netstandard2.0)
+      System.Memory.Data (>= 10.0.9) - restriction: || (>= net462) (>= netstandard2.0)
       System.Numerics.Vectors (>= 4.6.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
-      System.Text.Encodings.Web (>= 10.0.3) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
-      System.Text.Json (>= 10.0.3) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Text.Encodings.Web (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
+      System.Text.Json (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.Threading.Tasks.Extensions (>= 4.6.3) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
     Azure.Identity (1.21) - restriction: >= netstandard2.0
       Azure.Core (>= 1.53) - restriction: >= netstandard2.0
-    Azure.Monitor.OpenTelemetry.Exporter (1.8.1) - restriction: || (&& (>= net462) (>= netstandard2.0)) (>= net8.0)
-      Azure.Core (>= 1.56) - restriction: >= netstandard2.0
+    Azure.Monitor.OpenTelemetry.Exporter (1.8.2) - restriction: || (&& (>= net462) (>= netstandard2.0)) (>= net8.0)
+      Azure.Core (>= 1.59) - restriction: >= netstandard2.0
       OpenTelemetry.Extensions.Hosting (>= 1.15.3) - restriction: >= netstandard2.0
       OpenTelemetry.PersistentStorage.FileSystem (>= 1.0.3) - restriction: >= netstandard2.0
     BenchmarkDotNet (0.15.8)
@@ -47,28 +47,28 @@ NUGET
       Azure.Monitor.OpenTelemetry.Exporter (>= 1.8) - restriction: || (>= net462) (>= netstandard2.0)
     Microsoft.Bcl.AsyncInterfaces (10.0.9) - restriction: || (>= net462) (>= netstandard2.0)
       System.Threading.Tasks.Extensions (>= 4.6.3) - restriction: || (>= net462) (&& (>= netstandard2.0) (< netstandard2.1))
-    Microsoft.CodeAnalysis.Analyzers (5.3) - restriction: >= netstandard2.0
-    Microsoft.CodeAnalysis.Common (5.3) - restriction: >= netstandard2.0
-      Microsoft.CodeAnalysis.Analyzers (>= 5.3.0-2.25625.1) - restriction: >= netstandard2.0
-      System.Buffers (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Collections.Immutable (>= 9.0) - restriction: || (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
-      System.Memory (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Numerics.Vectors (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Reflection.Metadata (>= 9.0) - restriction: || (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
-      System.Runtime.CompilerServices.Unsafe (>= 6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+    Microsoft.CodeAnalysis.Analyzers (5.6) - restriction: >= netstandard2.0
+    Microsoft.CodeAnalysis.Common (5.6) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.Analyzers (>= 5.3) - restriction: >= netstandard2.0
+      System.Buffers (>= 4.6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Collections.Immutable (>= 10.0.1) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.6.3) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Numerics.Vectors (>= 4.6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Reflection.Metadata (>= 10.0.1) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.1.2) - restriction: && (< net8.0) (>= netstandard2.0)
       System.Text.Encoding.CodePages (>= 8.0) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Threading.Tasks.Extensions (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-    Microsoft.CodeAnalysis.CSharp (5.3) - restriction: >= netstandard2.0
-      Microsoft.CodeAnalysis.Analyzers (>= 5.3.0-2.25625.1) - restriction: >= netstandard2.0
-      Microsoft.CodeAnalysis.Common (5.3) - restriction: >= netstandard2.0
-      System.Buffers (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Collections.Immutable (>= 9.0) - restriction: || (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
-      System.Memory (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Numerics.Vectors (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Reflection.Metadata (>= 9.0) - restriction: || (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
-      System.Runtime.CompilerServices.Unsafe (>= 6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Threading.Tasks.Extensions (>= 4.6.3) - restriction: && (< net8.0) (>= netstandard2.0)
+    Microsoft.CodeAnalysis.CSharp (5.6) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.Analyzers (>= 5.3) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.Common (5.6) - restriction: >= netstandard2.0
+      System.Buffers (>= 4.6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Collections.Immutable (>= 10.0.1) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Memory (>= 4.6.3) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Numerics.Vectors (>= 4.6.1) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Reflection.Metadata (>= 10.0.1) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net8.0) (>= netstandard2.0))
+      System.Runtime.CompilerServices.Unsafe (>= 6.1.2) - restriction: && (< net8.0) (>= netstandard2.0)
       System.Text.Encoding.CodePages (>= 8.0) - restriction: && (< net8.0) (>= netstandard2.0)
-      System.Threading.Tasks.Extensions (>= 4.6) - restriction: && (< net8.0) (>= netstandard2.0)
+      System.Threading.Tasks.Extensions (>= 4.6.3) - restriction: && (< net8.0) (>= netstandard2.0)
     Microsoft.CodeCoverage (18.7) - restriction: || (>= net462) (>= net8.0)
     Microsoft.Diagnostics.NETCore.Client (0.2.661903) - restriction: >= netstandard2.0
       Microsoft.Bcl.AsyncInterfaces (>= 9.0.8) - restriction: && (< net8.0) (>= netstandard2.0)
@@ -255,7 +255,7 @@ NUGET
       System.Memory.Data (>= 10.0.3) - restriction: >= netstandard2.0
       System.Text.Json (>= 10.0.3) - restriction: || (&& (< net10.0) (>= net9.0)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
     System.CodeDom (10.0.9) - restriction: >= netstandard2.0
-    System.Collections.Immutable (10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (&& (>= net8.0) (< net9.0)) (>= netstandard2.0)
+    System.Collections.Immutable (10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (&& (>= net462) (>= net8.0)) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= net9.0)) (>= netstandard2.0)
       System.Memory (>= 4.6.3) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.Runtime.CompilerServices.Unsafe (>= 6.1.2) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
     System.ComponentModel.Annotations (5.0) - restriction: || (&& (>= net462) (>= netstandard2.1)) (&& (< net462) (>= netstandard2.0) (< netstandard2.1)) (&& (< net8.0) (>= netstandard2.1))
@@ -283,13 +283,13 @@ NUGET
     System.Memory.Data (10.0.9) - restriction: >= netstandard2.0
       System.Memory (>= 4.6.3) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.Text.Json (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
-    System.Numerics.Vectors (4.6.1) - restriction: || (>= net462) (&& (< net6.0) (>= netstandard2.0)) (&& (< net8.0) (>= netstandard2.0)) (&& (< netcoreapp2.1) (>= netstandard2.0) (< netstandard2.1))
+    System.Numerics.Vectors (4.6.1) - restriction: || (&& (>= net462) (>= netstandard2.0)) (&& (< net6.0) (>= netstandard2.0)) (&& (< net8.0) (>= netstandard2.0)) (&& (< netcoreapp2.1) (>= netstandard2.0) (< netstandard2.1))
     System.Reflection.Emit (4.7) - restriction: && (< net6.0) (>= netstandard2.0)
       System.Reflection.Emit.ILGeneration (>= 4.7) - restriction: || (&& (< monoandroid) (< monotouch) (< net45) (>= netstandard1.1) (< netstandard2.0) (< win8) (< wpa81) (< xamarintvos) (< xamarinwatchos)) (&& (< monoandroid) (< net45) (< netcoreapp2.0) (>= netstandard2.0) (< netstandard2.1) (< xamarintvos) (< xamarinwatchos)) (&& (< monoandroid) (< netstandard1.1) (>= portable-net45+win8+wpa81) (< win8)) (&& (< netstandard1.1) (>= win8)) (&& (< netstandard2.0) (>= wpa81)) (>= uap10.1)
     System.Reflection.Emit.ILGeneration (4.7) - restriction: || (&& (< monoandroid) (< net45) (< netcoreapp2.0) (>= netstandard2.0) (< netstandard2.1) (< xamarintvos) (< xamarinwatchos)) (&& (< monoandroid) (< netstandard1.1) (>= netstandard2.0) (< win8)) (&& (< netstandard1.1) (>= netstandard2.0) (>= win8)) (&& (>= netstandard2.0) (>= uap10.1))
     System.Reflection.Emit.Lightweight (4.7) - restriction: && (< net6.0) (>= netstandard2.0)
       System.Reflection.Emit.ILGeneration (>= 4.7) - restriction: || (&& (< monoandroid) (< monotouch) (< net45) (>= netstandard1.0) (< netstandard2.0) (< win8) (< wp8) (< wpa81) (< xamarintvos) (< xamarinwatchos)) (&& (< monoandroid) (< net45) (< netcoreapp2.0) (>= netstandard2.0) (< netstandard2.1) (< xamarintvos) (< xamarinwatchos)) (&& (< netstandard2.0) (>= wpa81)) (&& (>= portable-net45+win8+wp8+wpa81) (< portable-net45+wp8) (< win8)) (&& (< portable-net45+wp8) (>= win8)) (>= uap10.1)
-    System.Reflection.Metadata (10.0.9) - restriction: || (&& (>= net8.0) (< net9.0)) (>= netstandard2.0)
+    System.Reflection.Metadata (10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (>= netstandard2.0)
       System.Collections.Immutable (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
     System.Reflection.TypeExtensions (4.7) - restriction: >= netstandard2.0
     System.Runtime.CompilerServices.Unsafe (6.1.2) - restriction: || (>= net462) (&& (< net8.0) (>= net9.0)) (>= netstandard2.0)
@@ -308,7 +308,7 @@ NUGET
       System.Runtime.CompilerServices.Unsafe (>= 6.1.2) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.ValueTuple (>= 4.6.2) - restriction: >= net462
     System.Text.Encodings.Web (10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= net9.0)) (&& (< net8.0) (>= netstandard2.0))
-    System.Text.Json (10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (>= netstandard2.0)
+    System.Text.Json (10.0.9) - restriction: || (&& (< net10.0) (>= net8.0)) (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (>= netstandard2.0)
       Microsoft.Bcl.AsyncInterfaces (>= 10.0.9) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.Buffers (>= 4.6.1) - restriction: || (>= net462) (&& (< net8.0) (>= netstandard2.0))
       System.IO.Pipelines (>= 10.0.9) - restriction: || (&& (< net10.0) (>= net9.0)) (>= net462) (&& (>= net8.0) (< net9.0)) (&& (< net8.0) (>= netstandard2.0))
